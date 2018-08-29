@@ -1,9 +1,9 @@
-package app
+package app.demo
 
 import grails.testing.web.controllers.ControllerUnitTest
 import spock.lang.Specification
 
-class PersonControllerSpec extends Specification implements ControllerUnitTest<PersonController> {
+class GreetingsControllerSpec extends Specification implements ControllerUnitTest<GreetingsController> {
 
     def setup() {
     }

@@ -3,7 +3,7 @@ package plugin
 import grails.testing.services.ServiceUnitTest
 import spock.lang.Specification
 
-class RandomPersonServiceSpec extends Specification implements ServiceUnitTest<RandomPersonService>{
+class GreetingsServiceSpec extends Specification implements ServiceUnitTest<GreetingsService>{
 
     def setup() {
     }

@@ -3,9 +3,9 @@ package plugin
 import grails.gorm.transactions.Transactional
 
 @Transactional
-class GreetingService {
+class GreetingsService {
 
     String greet() {
-        return 'hello!'
+        return 'Hello'
     }
 }

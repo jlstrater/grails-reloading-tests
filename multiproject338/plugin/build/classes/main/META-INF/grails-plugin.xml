@@ -1,2 +1,17 @@
-<plugin grailsVersion='3.3.8 &gt; *' name='plugin' version='unspecified'><type>plugin.PluginGrailsPlugin</type><grailsVersion>3.3.8 &gt; *</grailsVersion><authorEmail></authorEmail><pluginExcludes>[grails-app/views/error.gsp]</pluginExcludes><author>Your name</author><documentation>http://grails.org/plugin/plugin</documentation><name>plugin</name><description>Brief summary/description of the plugin.
-</description><title>Plugin</title><version></version><resources><resource>plugin.Application</resource><resource>plugin.GreetingService</resource><resource>app.GreetingController</resource></resources></plugin>
+<plugin name='plugin' version='0.1' grailsVersion='3.3.8 &gt; *'>
+  <type>plugin.PluginGrailsPlugin</type>
+  <grailsVersion>3.3.8 &gt; *</grailsVersion>
+  <authorEmail></authorEmail>
+  <pluginExcludes>[grails-app/views/error.gsp]</pluginExcludes>
+  <author>Your name</author>
+  <documentation>http://grails.org/plugin/plugin</documentation>
+  <name>plugin</name>
+  <description>Brief summary/description of the plugin.
+</description>
+  <title>Plugin</title>
+  <version />
+  <resources>
+    <resource>plugin.Application</resource>
+    <resource>plugin.GreetingsService</resource>
+  </resources>
+</plugin>
