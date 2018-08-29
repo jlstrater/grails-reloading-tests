@@ -1,0 +1,12 @@
+version "0.1"
+group "app"
+
+dependencies {
+    testCompile 'org.grails:grails-datastore-rest-client'
+}
+
+grails {
+    plugins {
+        compile project(':plugin')
+    }
+}
